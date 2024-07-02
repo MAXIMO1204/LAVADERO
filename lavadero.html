@@ -1,0 +1,598 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DETAILING CENTER</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+        integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="lavadero.css">
+    <link rel="shortcut icon" href="img/37.png" type="icon" />
+
+
+</head>
+
+<body>
+    <!-- SECCION INICIO -->
+    <section id="inicio">
+        <header>
+            <div class="contenido-header">
+                <div class="logo">
+                    <h3>DETAILING CENTER</h3>
+
+                </div>
+                <nav id="nav">
+                    <ul>
+                        <li>
+                            <a href="#inicio" onclick="seleccionar()">
+
+                                <span>Inicio</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#nosotros" onclick="seleccionar()">
+
+                                <span>Nosotros</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#sabores" onclick="seleccionar()">
+
+                                <span>Servicios</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#precio" onclick="seleccionar()">
+
+                                <span>Precios</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#platos" onclick="seleccionar()">
+
+                                <span>Galeria</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#blog" onclick="seleccionar()">
+
+                                <span>Opiniones</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#contacto" onclick="seleccionar()">
+
+                                <span>Contacto</span>
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+                <div class="social">
+
+                    <a target="_blank" href=""><i class="fa-brands fa-facebook"></i></a>
+                    <a target="_blank" href=""><i class="fa-brands fa-instagram"></i></a>
+                </div>
+                <div class="nav-responsive" id="bar" onclick="mostrarOcultarMenu()">
+                    <i class="fa-solid fa-bars"></i>
+                </div>
+            </div>
+        </header>
+        <!-- Carrusel -->
+        <div class="carrusel">
+            <div class="gallery js-flickity"
+                data-flickity-options='{ "wrapAround":true, "pageDots": false, "autoPlay": true}'>
+                <div class="gallery-cell">
+                    <img src="img/carousel-1.jpg" alt="">
+                </div>
+                <div class="gallery-cell">
+                    <img src="img/carousel-2.jpg" alt="">
+                </div>
+                <div class="gallery-cell">
+                    <img src="img/carousel-3.jpg" alt="">
+                </div>
+            </div>
+            <div class="info">
+                <h1 class="neon">DETAILING CENTER</h1>
+
+
+            </div>
+        </div>
+
+    </section>
+    <!-- SECCION SABORES -->
+    <section id="nosotros">
+        <h2>Nosotros</h2><br><br>
+        <h2>¿Qué es el Detailing o la Estetica Vehicular?</h2><br>
+        <p>Muchos hemos oído hablar del Detailing, Detail o Detallado de automóviles. Todas estas acepciones son válidas
+            cuando hablamos de estetica vehicular.</p><br>
+
+        <p>La estética vehicular nace con la llegada del “Detailing” o “Detallado”, que es un conjunto de técnicas y
+            procesos destinados a la limpieza, rejuvenecimiento y protección de las distintas superficies de un
+            vehículo.</p><br>
+
+        <h2>Experiencia DETAILING CENTER</h2><br>
+        <p>DETAILING CENTER es una empresa dedicada a la estética del automóvil que brinda un servicio
+            especializado en
+            cada sector. Estamos capacitados ampliamente, poseemos la experiencia y tecnología necesaria para brindar un
+            servicio íntegro y conveniente con el que Usted se sentirá más seguro.</p><br>
+
+        <p>Hemos realizado tratamientos en gran variedad de marcas y modelos, pero nunca dejamos de amar el arte del
+            detailing, ya que por más económico o costoso que sea un automóvil, para nosotros sigue siendo un trabajo a
+            realizar a la perfección. Asimismo, continuamos evolucionando constantemente, aprendiendo día a día para
+            estar siempre en plena formación dentro del rubro.</p><br>
+
+    </section>
+
+    <!-- SECCION SABORES -->
+    <section id="sabores">
+        <h2>Servicios</h2>
+        <div class="fila">
+            <div class="item">
+                <div class="icono">
+                    <img src="img/30.png" alt="">
+                </div>
+                <div class="info">
+                    <h3>Lavado Tradicional</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                </div>
+            </div>
+            <div class="item">
+                <div class="icono">
+                    <img src="img/31.png" alt="">
+                </div>
+                <div class="info">
+                    <h3>Lavado de Motor</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                </div>
+            </div>
+            <div class="item">
+                <div class="icono">
+                    <img src="img/32.png" alt="">
+                </div>
+                <div class="info">
+                    <h3>Aspirado Tradicional</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="fila">
+            <div class="item">
+                <div class="icono">
+                    <img src="img/33.png" alt="">
+                </div>
+                <div class="info">
+                    <h3>Limpieza de Tapizados</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                </div>
+            </div>
+            <div class="item">
+                <div class="icono">
+                    <img src="img/34.png" alt="">
+                </div>
+                <div class="info">
+                    <h3>Encerado</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                </div>
+            </div>
+            <div class="item">
+                <div class="icono">
+                    <img src="img/35.png" alt="">
+                </div>
+                <div class="info">
+                    <h3>Pulido</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                </div>
+            </div>
+        </div>
+        <div class="fila">
+            <div class="item">
+                <div class="icono">
+                    <img src="img/36.png" alt="">
+                </div>
+                <div class="info">
+                    <h3>Limpieza de Interior Premiun</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                </div>
+            </div>
+            <div class="item">
+                <div class="icono">
+                    <img src="img/30.png" alt="">
+                </div>
+                <div class="info">
+                    <h3>Lavado Intermedio</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                </div>
+            </div>
+            <div class="item">
+                <div class="icono">
+                    <img src="img/30.png" alt="">
+                </div>
+                <div class="info">
+                    <h3>Lavado Premium</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                </div>
+            </div>
+        </div>
+
+
+
+
+    </section>
+    <!-- SECCION PRECIOS -->
+    <section id="precio">
+        <h2>Precios</h2>
+        <div class="container">
+
+            <div class="tabla">
+
+                <div class="titulo">
+
+                    <h2>LAVADO TRADICIONAL</h2>
+                </div>
+
+                <div class="precio">
+                    <h3>$ <span>2.000</span></h3>
+                </div>
+
+                <div class="descripcion">
+                    <ul>
+                        <li><i class="fa fa-check"></i> Shampoo Siliconado</li>
+                        <li><i class="fa fa-check"></i> Aspirado Interior</li>
+                        <li><i class="fa fa-check"></i> Limpieza de Plasticos</li>
+                        <li><i class="fa fa-check"></i> Limpieza de Cristales</li>
+                    </ul>
+                </div>
+
+
+            </div>
+
+            <div class="tabla">
+                <div class="titulo">
+
+                    <h2>LAVADO INTERMEDIO</h2>
+                </div>
+
+                <div class="precio">
+                    <h3>$ <span>2.500</span></h3>
+                </div>
+
+                <div class="descripcion">
+                    <ul>
+                        <li><i class="fa fa-check"></i> Shampoo Siliconado</li>
+                        <li><i class="fa fa-check"></i> Cera Liquida</li>
+                        <li><i class="fa fa-check"></i> Aspirado Interior</li>
+                        <li><i class="fa fa-check"></i> Limpieza de Plasticos</li>
+                        <li><i class="fa fa-check"></i> Limpieza de Cristales</li>
+                        <li><i class="fa fa-check"></i> Limpieza de Neumaticos</li>
+                    </ul>
+                </div>
+
+
+            </div>
+
+            <div class="tabla">
+                <div class="titulo">
+
+                    <h2>LAVADO EMPRESARIAL</h2>
+                </div>
+
+                <div class="precio">
+                    <h3>$ <span>3.000</span></h3>
+                </div>
+
+                <div class="descripcion">
+                    <ul>
+                        <li><i class="fa fa-check"></i> Shampoo Siliconado</li>
+                        <li><i class="fa fa-check"></i> Cera Liquida</li>
+                        <li><i class="fa fa-check"></i> Aspirado Interior</li>
+                        <li><i class="fa fa-check"></i> Limpieza de Plasticos</li>
+                        <li><i class="fa fa-check"></i> Limpieza de Cristales</li>
+                        <li><i class="fa fa-check"></i> Limpieza de Neumaticos</li>
+                        <li><i class="fa fa-check"></i> Pulido Tradicional</li>
+                    </ul>
+                </div>
+
+
+            </div>
+        </div>
+        <div class="container">
+            <div class="tabla">
+                <div class="titulo">
+
+                    <h2>LAVADO DE MOTOR</h2>
+                </div>
+
+                <div class="precio">
+                    <h3>$ <span>3.000</span></h3>
+                </div>
+
+                <div class="descripcion">
+                    <ul>
+                        <li><i class="fa fa-check"></i> Limpieza de Mangueras</li>
+                        <li><i class="fa fa-check"></i> Limpiezas de Tapas</li>
+                        <li><i class="fa fa-check"></i> Limpieza de Recipientes</li>
+                        <li><i class="fa fa-check"></i> Lavado al Vapor</li>
+                    </ul>
+                </div>
+
+
+            </div>
+
+            <div class="tabla">
+                <div class="titulo">
+
+                    <h2>LIMPIEZA DE TAPIZADOS</h2>
+                </div>
+
+                <div class="precio">
+                    <h3>$ <span>4.000</span></h3>
+                </div>
+
+                <div class="descripcion">
+                    <ul>
+                        <li><i class="fa fa-check"></i> Limpieza con Vapor</li>
+                        <li><i class="fa fa-check"></i> Aspirado Industrial</li>
+                        <li><i class="fa fa-check"></i> Remocion de Manchas</li>
+
+                    </ul>
+                </div>
+
+
+            </div>
+
+            <div class="tabla">
+                <div class="titulo">
+
+                    <h2>LIMPIEZA INTERIOL FULL</h2>
+                </div>
+
+                <div class="precio">
+                    <h3>$ <span>10.000</span></h3>
+                </div>
+
+                <div class="descripcion">
+                    <ul>
+                        <li><i class="fa fa-check"></i> Aspirado Premiun</li>
+                        <li><i class="fa fa-check"></i> Limpieza de Tapizadso</li>
+                        <li><i class="fa fa-check"></i> Limpieza de Plasticos</li>
+                        <li><i class="fa fa-check"></i> Limpieza de Alfombra</li>
+                        <li><i class="fa fa-check"></i> Limpieza de Techo</li>
+
+                    </ul>
+                </div>
+
+
+            </div>
+        </div>
+        <div class="container">
+            <div class="tabla">
+                <div class="titulo">
+
+                    <h2>DETALING BASE</h2>
+                </div>
+
+                <div class="precio">
+                    <h3>$ <span>15.000</span></h3>
+                </div>
+
+                <div class="descripcion">
+                    <ul>
+                        <li><i class="fa fa-check"></i> Lavado Premium</li>
+                        <li><i class="fa fa-check"></i> Tratamiento Cera Liquida</li>
+                        <li><i class="fa fa-check"></i> Tratamiento de Neumaticos</li>
+                        <li><i class="fa fa-check"></i> Pulido Premium</li>
+                        <li><i class="fa fa-check"></i> Abrillantado Premium</li>
+
+                    </ul>
+                </div>
+
+
+            </div>
+
+            <div class="tabla">
+                <div class="titulo">
+
+                    <h2>DETALING EMPRESARIAL</h2>
+                </div>
+
+                <div class="precio">
+                    <h3>$ <span>20.000</span></h3>
+                </div>
+
+                <div class="descripcion">
+                    <ul>
+                        <li><i class="fa fa-check"></i> Lavado Premium</li>
+                        <li><i class="fa fa-check"></i> Tratamiento Cera Liquida</li>
+                        <li><i class="fa fa-check"></i> Tratamiento Acrilico</li>
+                        <li><i class="fa fa-check"></i> Tratamiento de Neumaticos</li>
+                        <li><i class="fa fa-check"></i> Pulido Premium</li>
+                        <li><i class="fa fa-check"></i> Abrillantado Premium</li>
+
+                    </ul>
+                </div>
+
+
+            </div>
+
+            <div class="tabla">
+                <div class="titulo">
+
+                    <h2>PACK EJECUTIVO PREMIUM</h2>
+                </div>
+
+                <div class="precio">
+                    <h3>$ <span>35.000</span></h3>
+                </div>
+
+                <div class="descripcion">
+                    <ul>
+                        <li><i class="fa fa-check"></i> LAVADO EMPRESARIAL</li>
+                        <li><i class="fa fa-check"></i> LAVADO DE MOTOR</li>
+                        <li><i class="fa fa-check"></i> LIMPIEZA INTERIOL FULL</li>
+                        <li><i class="fa fa-check"></i> DETALING EMPRESARIAL</li>
+                    </ul>
+                </div>
+
+
+            </div>
+        </div>
+
+    </section>
+
+    <!-- SECCION PLATOS -->
+    <section id="platos"><br><br><br>
+        <h2>Galeria de Imagenes</h2>
+
+        <div class="fila">
+            <div class="item">
+                <img src="img/20.jpg" alt="">
+            </div>
+            <div class="item">
+                <img src="img/21.jpg" alt="">
+            </div>
+            <div class="item">
+                <img src="img/22.jpg" alt="">
+            </div>
+            <div class="item">
+                <img src="img/23.jpg" alt="">
+            </div>
+        </div>
+        <div class="fila">
+            <div class="item">
+                <img src="img/41.jpg" alt="">
+            </div>
+            <div class="item">
+                <img src="img/25.jpg" alt="">
+            </div>
+            <div class="item">
+                <img src="img/26.jpg" alt="">
+            </div>
+            <div class="item">
+                <img src="img/27.jpg" alt="">
+            </div>
+        </div>
+        <div class="fila">
+            <div class="item">
+                <img src="img/28.jpg" alt="">
+            </div>
+            <div class="item">
+                <img src="img/29.jpg" alt="">
+            </div>
+            <div class="item">
+                <img src="img/38.jpg" alt="">
+            </div>
+            <div class="item">
+                <img src="img/39.jpg" alt="">
+            </div>
+        </div>
+
+
+    </section>
+
+    <!-- SECCION BLOG -->
+    <section id="blog">
+        <h2>Opiniones</h2>
+        <div class="galeria-blog js-flickity" data-flickity-options='{ "wrapAround":true, "pageDots": true}'>
+            <div class="gallery-cell">
+                <div class="item">
+                    <div class="foto">
+                        <img src="img/10.jpg" alt="">
+                    </div>
+                    <div class="info">
+                        <h3>Calidad y detalle al máximo</h3>
+                        <p> El auto sale mejor que cuando lo pintan y pulen desde la fábrica. Consistencia entre lo
+                            ofrecido y el producto final.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="gallery-cell">
+                <div class="item">
+                    <div class="foto">
+                        <img src="img/11.jpg" alt="">
+                    </div>
+                    <div class="info">
+                        <h3>5 Estrellas</h3>
+                        <p>Buen espacio para trabajar los vehiculos, productos de calidad, preocupacion por tu vehiculo
+                            en los mas minimos detalles, excelente atencion.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="gallery-cell">
+                <div class="item">
+                    <div class="foto">
+                        <img src="img/12.jpg" alt="">
+                    </div>
+                    <div class="info">
+                        <h3>Muy buen trabajo y atención al detalle.</h3>
+                        <p>Excelente, los autos salen nuevos, muy buen equipo de profesionales, productos de primer
+                            nivel.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <!-- SECCION CONTACTO Y PIE DE PAGINA -->
+    <section id="contacto">
+        <div class="fila">
+            <div class="col">
+                <h1>DETAILING CENTER</h1>
+
+            </div>
+            <div class="col">
+                <h3>Menú</h3>
+                <a href="#inicio">Inicio</a>
+                <a href="#nosotros">Nosotros</a>
+                <a href="#sabores">Servicios</a>
+                <a href="#precio">Precios</a>
+                <a href="#platos">Galeria</a>
+                <a href="#blog">Opiniones</a>
+            </div>
+
+            <div class="col">
+                <h3>Redes Sociales</h3>
+                <div class="media">
+                    <i class="fa-brands fa-facebook"></i> <a target="blank" href="">Facebook</a>
+                </div>
+                <div class="media">
+                    <i class="fa-brands fa-instagram"></i> <a target="blank" href="">Instagram</a>
+                </div>
+            </div>
+            <div class="col">
+                <h3>Contacto</h3>
+                <input type="text" placeholder="Tu correo">
+                <input type="submit" class="enviar">
+            </div>
+        </div><br><br>
+        <div class="copyright">
+            <p>
+                Desarrollado por Ramiro Atencio &copy; 2024 </p>
+
+        </div>
+
+    </section>
+
+    <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" 
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+
+    <a href="https://api.whatsapp.com/send?phone=03865-XXXXXX&text=Hola%21%20Quisiera%20m%C3%A1s%20informaci%C3%B3n%20sobre%20Varela%202."
+        class="float" target="_blank">
+        <i class="fa fa-whatsapp my-float"></i></a>
+
+
+
+
+</body>
+
+</html>
